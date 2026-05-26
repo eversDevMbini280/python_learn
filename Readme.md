@@ -2,9 +2,9 @@
 
 Bienvenue dans **Python Learn**, un dépôt pensé pour apprendre Python pas à pas, avec une documentation personnalisée, des exercices progressifs et des projets pratiques de fin de chapitre.
 
-L'objectif est double : m'aider à améliorer ma compréhension de Python tout en offrant à d'autres débutants un espace simple, organisé et motivant pour découvrir le langage.
+L'objectif est double : au dépare j voulais juste améliorer ma compréhension de Python mais plus tard j'ai finalement décider d'en faire un dépôt publique offrant à d'autres, des débutants un espace simple, organisé et motivant pour découvrir le langage.
 
-Ce dépôt est public et ouvert aux contributions. Toute personne passionnée par le code peut proposer des ressources, de la documentation, des vidéos, des corrections ou de nouveaux exercices, à condition de respecter l'architecture du projet et de travailler depuis une branche dédiée.
+Ce dépôt est public et ouvert aux contributions. Toute personne passionnée par le code peut proposer des ressources, de la documentation pesonalisée ou standard, des vidéos, des corrections ou de nouveaux exercices, à condition de respecter l'architecture du projet et de travailler depuis une branche dédiée.
 
 ## Α. Vision du projet
 
@@ -135,6 +135,32 @@ Types de contributions possibles :
 - Tester les scripts avant de proposer une contribution.
 - Respecter le niveau de difficulté indiqué par le dossier.
 
+## Κ. Stratégie de branches pour les contributions
+
+Chaque participant doit utiliser des branches séparées pour :
+
+- les contributions d'amélioration du projet,
+- les exercices personnels qu'il ajoute au dépôt.
+
+Exemple pour les améliorations du projet :
+
+```bash
+git checkout -b main
+```
+
+Exemple pour les exercices personnels :
+
+```bash
+git checkout -b eversDevMbini280
+```
+
+Ainsi :
+
+- la branche `main` sert à regrouper les améliorations du projet,
+- la branche `eversDevMbini280` sert à pousser les exercices personnels déjà réalisés.
+
+Chaque contributeur doit créer sa branche spéciale avant de travailler, puis ouvrir une pull request depuis cette branche vers `main` une fois prêt.
+
 ## Θ. Public visé
 
 Ce dépôt est fait pour :
@@ -149,4 +175,4 @@ Ce dépôt est fait pour :
 
 Apprendre Python ne se résume pas à lire du code. Il faut pratiquer, se tromper, corriger, comparer, recommencer et construire de petits projets jusqu'à ce que les notions deviennent naturelles.
 
-Ce dépôt avance dans cet esprit : simple, progressif, ouvert et collaboratif.
+Ce dépôt avance dans cet esprit : simple, progressif, ouvert et collaboratif. Alors fais les exercices et envoyez les sur votre branche exercice que puisse voir votre facon de coder.
