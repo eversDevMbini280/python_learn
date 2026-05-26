@@ -9,23 +9,3 @@ Indice : Cherchez comment afficher 2 decimales dans une f-string avec :.2f
 
 """
 
-print("Bonjour cher utilisateur, veuillez entrer la temperature qu'il fait :")
-
-temperature = float(input("Entrez la temperature en degres celsius : "))
-
-fahrenheit = (temperature * 9/5) + 32
-
-kelvin = temperature + 273.15
-
-print(f"{temperature:.2f} degres celsius fait {fahrenheit:.2f} degres fahrenheit et {kelvin:.2f} degres kelvin.")
-
-if temperature < 0:
-    print(f"{temperature:.2f} est une temperature glaciale.")
-elif temperature >= 0 and temperature <= 15:
-    print(f"{temperature:.2f} est une temperature glaciale.")
-elif temperature >= 0 and temperature <= 15:    
-    print(f"{temperature:.2f} est une temperature froide.")
-elif temperature >= 15 and temperature <= 25:
-    print(f"{temperature:.2f} est une temperature moderée.")
-else:
-    print(f"{temperature:.2f} est une temperature chaude.")   
